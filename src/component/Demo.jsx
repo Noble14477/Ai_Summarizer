@@ -78,7 +78,6 @@ const Demo = () => {
             <img src={loader} alt="loader" className="m-20 h-20 objet-contain"/>
           ) : error ?(
             <p className="font-inter font-bold text-black text-center">
-              That was'nt supposed to happen 
               <br />
               <span className="font-satoshi font-normal text-gray-700">{error?.data?.error}</span>
             </p>
